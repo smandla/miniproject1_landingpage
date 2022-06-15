@@ -1,0 +1,25 @@
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  /* background: linear-gradient(-45deg, red 8%, darkblue 70.53%); */
+  background-color: darkblue;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* display: none; */
+  /* margin: 1rem; */
+  /* padding: 1rem; */
+  /* display: inline; */
+}
+li {
+  list-style-type: none;
+  /* list-style: none; */
+  display: inline;
+  margin: 1rem;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
