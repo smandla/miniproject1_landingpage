@@ -5,14 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
   <body>
+    <!-- Fixed Header with NavBar-->
     <header>
-      <h1>Landing Page</h1>
+      <h1>Chips N' Salsa</h1>
       <nav>
         <ul>
           <li>
-            <a href="#aboutme">About Me</a>
+            <a href="#home">Home</a>
           </li>
           <li>
             <a href="#portfolio">Portfolio</a>
@@ -23,7 +28,19 @@
         </ul>
       </nav>
     </header>
-    <section class="image"></section>
+
+    <!-- Landing Page Image-->
+    <section id="home">
+      <img
+        src="https://wallpaperaccess.com/full/186244.jpg"
+        alt="image of a detailed hardware chip with a theme of blue and black"
+        class="image"
+      />
+      <figcaption>Figure 1: Chips with no side of salsa</figcaption>
+    </section>
+
+    <hr />
+    <!-- Contact Form Section-->
     <section id="contact">
       <form>
         <h2>Contact Us!</h2>
@@ -38,9 +55,15 @@
         <button>Submit</button>
       </form>
     </section>
+    <hr />
+    <!-- Footer that includes NavBar for Social Media Icons -->
     <footer>
       <h4>Thank you for visiting!</h4>
-      <!-- add social media icons?? -->
+      <nav class="icons">
+        <a href="http://linkedin.com" class="fa fa-linkedin"></a>
+        <a href="https://github.com" class="fa fa-github"></a>
+        <a href="https://soundcloud.com" class="fa fa-soundcloud"></a>
+      </nav>
     </footer>
   </body>
 </html>
